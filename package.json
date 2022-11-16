@@ -18,7 +18,6 @@
   "homepage": "https://github.com/thefearless1/singlefiletemplate#readme",
   "dependencies": {
     "express": "^4.18.2",
-    "level": "^8.0.0",
     "node-json-db": "^2.1.3"
   }
 }
