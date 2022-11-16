@@ -9,7 +9,11 @@ app.get('/', function (req, res) {
 });
 
  app.get('/about', async function (req, res) {
-     await db.push("/test1","super test");
+     for(let i=0;i<10000;i++){
+         await db.push("/test"+i,"super test");
+
+     }
+
 
      await res.send('welcome to about page!');
 });
