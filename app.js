@@ -10,8 +10,6 @@ app.get('/', function (req, res) {
 
  app.get('/about', async function (req, res) {
 
-
-
      await res.send('welcome to about page!');
 });
 

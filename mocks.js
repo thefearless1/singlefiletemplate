@@ -5,7 +5,7 @@ let ramDb = db.getData("/");
 setInterval(function() {db.push("/", ramDb);}, 60 * 1000);//persisting data
 
 async function mock(){
-for(let i=0;i)
+
         ramDb["key"] = {
             user:'user',
             email:'email',
@@ -17,7 +17,7 @@ for(let i=0;i)
             title:'title'
         };
 
- var listOfEmails = [];
+    var listOfEmails = [];
     var contentToSearch = document.body.innerHTML;
     var contentAsText = contentToSearch.toString();
     listOfEmails = contentAsText.match(/([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9._-]+)/gi);
